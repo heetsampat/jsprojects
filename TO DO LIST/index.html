@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My To-Do List</title>
+    <style>
+        .completed {
+            text-decoration: line-through;
+            opacity: 0.5;
+        }
+        .task {
+            margin: 10px 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My To-Do List</h1>
+    <input
+        id="taskInput"
+        type="text"
+        placeholder="Enter a task">
+    <button id="addButton">Add Task</button>
+    <div id="taskContainer"></div>
+    <script src="todo.js"></script>
+</body>
+</html>
